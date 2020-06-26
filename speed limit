@@ -1,0 +1,14 @@
+#s_d means initial speed
+#s means the inputed speed
+#limit means speed limit
+def spd():
+    s=int(input('enter a value for speed: '))
+    limit=180
+    s_d=20
+    if s<s_d:
+        print(s,'There is an decrease in speed')
+    elif s>limit:
+        print(s,'Your speed limit has been exceeded')
+    elif s>s_d:
+        print(s,'There is an increase in speed')
+spd()
